@@ -14,8 +14,8 @@ publish:
         echo "Usage: VERSION=x.y.z just publish" >&2
         exit 1
     fi
-    
-    pnpm --no-git-tag-version version $VERSION
+
+    npm --no-git-tag-version version $VERSION
     pnpm publish --no-git-checks
 
 # Install dependencies
