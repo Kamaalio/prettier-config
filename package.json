@@ -1,0 +1,19 @@
+{
+    "name": "@kamaalio/prettier-config",
+    "version": "0.1.0",
+    "description": "",
+    "main": "prettier-config.js",
+    "files": [
+        "prettier-config.js"
+    ],
+    "scripts": {},
+    "keywords": [
+        "prettier"
+    ],
+    "author": "Kamaal Farah",
+    "license": "MIT",
+    "packageManager": "pnpm@10.9.0",
+    "publishConfig": {
+        "access": "public"
+    }
+}
